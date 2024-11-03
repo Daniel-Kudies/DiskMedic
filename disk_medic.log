@@ -1,0 +1,14 @@
+2024-11-03 12:57:29,513 - INFO - Starting the DiskMedic...
+2024-11-03 12:57:29,541 - DEBUG - Using Command: powershell -Command "Get-WmiObject -Namespace root\wmi -Class MSStorageDriver_FailurePredictStatus | Select-Object InstanceName, Active, PredictFailure"
+2024-11-03 12:57:29,911 - INFO - {'InstanceName': 'SCSI\\Disk&Ven_Samsung&Prod_SSD\\4&2d010f8d&0&000000_0', 'Active': 'True', 'PredictFailure': 'False'}
+2024-11-03 12:57:29,912 - INFO - {'InstanceName': 'SCSI\\Disk&Ven_ST316031&Prod_0CS\\4&2d010f8d&0&000100_0', 'Active': 'True', 'PredictFailure': 'False'}
+2024-11-03 12:57:29,912 - INFO - {'InstanceName': 'SCSI\\Disk&Ven_ST350041&Prod_8AS\\4&2d010f8d&0&000300_0', 'Active': 'True', 'PredictFailure': 'True'}
+2024-11-03 12:57:29,912 - INFO - {'InstanceName': 'SCSI\\Disk&Ven_ST12000D&Prod_M0007-2GR116\\4&2d010f8d&0&000400_0', 'Active': 'True', 'PredictFailure': 'False'}
+2024-11-03 12:57:29,912 - INFO - Ending the Disk Medic.
+2024-11-03 13:00:21,335 - INFO - Starting the DiskMedic...
+2024-11-03 13:00:21,363 - DEBUG - Using Command: powershell -Command "Get-WmiObject -Namespace root\wmi -Class MSStorageDriver_FailurePredictStatus | Select-Object InstanceName, Active, PredictFailure"
+2024-11-03 13:00:21,712 - INFO - InstanceName: SCSI\Disk&Ven_Samsung&Prod_SSD\4&2d010f8d&0&000000_0, Active: True, PredictFailure: False
+2024-11-03 13:00:21,713 - INFO - InstanceName: SCSI\Disk&Ven_ST316031&Prod_0CS\4&2d010f8d&0&000100_0, Active: True, PredictFailure: False
+2024-11-03 13:00:21,713 - INFO - InstanceName: SCSI\Disk&Ven_ST350041&Prod_8AS\4&2d010f8d&0&000300_0, Active: True, PredictFailure: True
+2024-11-03 13:00:21,713 - INFO - InstanceName: SCSI\Disk&Ven_ST12000D&Prod_M0007-2GR116\4&2d010f8d&0&000400_0, Active: True, PredictFailure: False
+2024-11-03 13:00:21,713 - INFO - Ending the Disk Medic.
